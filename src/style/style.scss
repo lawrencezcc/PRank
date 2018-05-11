@@ -1,0 +1,75 @@
+$pr-blue: #1890ff;
+$pr-white: #ffffff;
+$pr-border-color-hover: #40a9ff;
+$pr-font: "roboto";
+
+/* header */
+.prMeun {
+  font-weight: 500;
+}
+
+.prSearchBar {
+}
+
+.prInlineBlock {
+  display: inline-block;
+}
+
+.prSearchBar {
+  &:focus {
+    i {
+      color: $pr-border-color-hover !important;
+    }
+  }
+  &:active {
+    i {
+      color: $pr-border-color-hover !important;
+    }
+  }
+  &:hover {
+    i {
+      color: $pr-border-color-hover;
+    }
+  }
+}
+
+/* general */
+.prBgWhite {
+  background-color: $pr-white;
+}
+
+.prBlue {
+  color: $pr-blue;
+}
+
+.prFont {
+  font-family: $pr-font;
+}
+
+.pullRight {
+  float: right !important;
+}
+
+.pullLeft {
+  float: left !important;
+}
+
+.textLeft {
+  text-align: left;
+}
+
+.textRight {
+  text-align: right;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.textJustify {
+  text-align: justify;
+}
+
+.clearFloat {
+  float: none !important;
+}
